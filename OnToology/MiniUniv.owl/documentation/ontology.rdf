@@ -1,0 +1,989 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:UnivExample="http://lumii.lv/ontologies/UnivExample.owl#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#acadTitle -->
+
+
+    <AnnotationProperty rdf:about="http://lumii.lv/ontologies/UnivExample.owl#acadTitle"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#course -->
+
+
+    <AnnotationProperty rdf:about="http://lumii.lv/ontologies/UnivExample.owl#course"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#courseCode -->
+
+
+    <AnnotationProperty rdf:about="http://lumii.lv/ontologies/UnivExample.owl#courseCode"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#courseCredits -->
+
+
+    <AnnotationProperty rdf:about="http://lumii.lv/ontologies/UnivExample.owl#courseCredits"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#courseExtInfo -->
+
+
+    <AnnotationProperty rdf:about="http://lumii.lv/ontologies/UnivExample.owl#courseExtInfo"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#courseName -->
+
+
+    <AnnotationProperty rdf:about="http://lumii.lv/ontologies/UnivExample.owl#courseName"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#dateCompleted -->
+
+
+    <AnnotationProperty rdf:about="http://lumii.lv/ontologies/UnivExample.owl#dateCompleted"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#datePaid -->
+
+
+    <AnnotationProperty rdf:about="http://lumii.lv/ontologies/UnivExample.owl#datePaid"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#enrolled -->
+
+
+    <AnnotationProperty rdf:about="http://lumii.lv/ontologies/UnivExample.owl#enrolled"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#facultyLevel -->
+
+
+    <AnnotationProperty rdf:about="http://lumii.lv/ontologies/UnivExample.owl#facultyLevel"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#hasMark -->
+
+
+    <AnnotationProperty rdf:about="http://lumii.lv/ontologies/UnivExample.owl#hasMark"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#includes -->
+
+
+    <AnnotationProperty rdf:about="http://lumii.lv/ontologies/UnivExample.owl#includes"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#mark -->
+
+
+    <AnnotationProperty rdf:about="http://lumii.lv/ontologies/UnivExample.owl#mark"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#nCode -->
+
+
+    <AnnotationProperty rdf:about="http://lumii.lv/ontologies/UnivExample.owl#nCode"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#nValue -->
+
+
+    <AnnotationProperty rdf:about="http://lumii.lv/ontologies/UnivExample.owl#nValue"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#nationality -->
+
+
+    <AnnotationProperty rdf:about="http://lumii.lv/ontologies/UnivExample.owl#nationality"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#personID -->
+
+
+    <AnnotationProperty rdf:about="http://lumii.lv/ontologies/UnivExample.owl#personID"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#personName -->
+
+
+    <AnnotationProperty rdf:about="http://lumii.lv/ontologies/UnivExample.owl#personName"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#programName -->
+
+
+    <AnnotationProperty rdf:about="http://lumii.lv/ontologies/UnivExample.owl#programName"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#r -->
+
+
+    <AnnotationProperty rdf:about="http://lumii.lv/ontologies/UnivExample.owl#r"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#salary -->
+
+
+    <AnnotationProperty rdf:about="http://lumii.lv/ontologies/UnivExample.owl#salary"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#student -->
+
+
+    <AnnotationProperty rdf:about="http://lumii.lv/ontologies/UnivExample.owl#student"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#studentName -->
+
+
+    <AnnotationProperty rdf:about="http://lumii.lv/ontologies/UnivExample.owl#studentName"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#studentNumber -->
+
+
+    <AnnotationProperty rdf:about="http://lumii.lv/ontologies/UnivExample.owl#studentNumber"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#takes -->
+
+
+    <AnnotationProperty rdf:about="http://lumii.lv/ontologies/UnivExample.owl#takes"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#teacherName -->
+
+
+    <AnnotationProperty rdf:about="http://lumii.lv/ontologies/UnivExample.owl#teacherName"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#teaches -->
+
+
+    <AnnotationProperty rdf:about="http://lumii.lv/ontologies/UnivExample.owl#teaches"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#AcademicProgram -->
+
+
+    <Class rdf:about="http://lumii.lv/ontologies/UnivExample.owl#AcademicProgram"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#Assistant -->
+
+
+    <Class rdf:about="http://lumii.lv/ontologies/UnivExample.owl#Assistant"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration -->
+
+
+    <Class rdf:about="http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#Course -->
+
+
+    <Class rdf:about="http://lumii.lv/ontologies/UnivExample.owl#Course"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#FacultyLevel -->
+
+
+    <Class rdf:about="http://lumii.lv/ontologies/UnivExample.owl#FacultyLevel"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#MandatoryCourse -->
+
+
+    <Class rdf:about="http://lumii.lv/ontologies/UnivExample.owl#MandatoryCourse"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#Nationality -->
+
+
+    <Class rdf:about="http://lumii.lv/ontologies/UnivExample.owl#Nationality"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#OptionalCourse -->
+
+
+    <Class rdf:about="http://lumii.lv/ontologies/UnivExample.owl#OptionalCourse"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#Person -->
+
+
+    <Class rdf:about="http://lumii.lv/ontologies/UnivExample.owl#Person"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#Professor -->
+
+
+    <Class rdf:about="http://lumii.lv/ontologies/UnivExample.owl#Professor"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#Registration -->
+
+
+    <Class rdf:about="http://lumii.lv/ontologies/UnivExample.owl#Registration"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#Student -->
+
+
+    <Class rdf:about="http://lumii.lv/ontologies/UnivExample.owl#Student"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#Teacher -->
+
+
+    <Class rdf:about="http://lumii.lv/ontologies/UnivExample.owl#Teacher"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/UnivExample.owl#Thing -->
+
+
+    <Class rdf:about="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/Level_Assistant -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/Level_Assistant">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#FacultyLevel"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:acadTitle>Assistant</UnivExample:acadTitle>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/Level_AssocProfessor -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/Level_AssocProfessor">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#FacultyLevel"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:acadTitle>AssocProfessor</UnivExample:acadTitle>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/Level_Professor -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/Level_Professor">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#FacultyLevel"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:acadTitle>Professor</UnivExample:acadTitle>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/NationalityDE -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/NationalityDE">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Nationality"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:nCode>DE</UnivExample:nCode>
+        <UnivExample:nValue>Germany</UnivExample:nValue>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/NationalityEE -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/NationalityEE">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Nationality"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:nCode>EE</UnivExample:nCode>
+        <UnivExample:nValue>Estonia</UnivExample:nValue>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/NationalityFR -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/NationalityFR">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Nationality"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:nCode>FR</UnivExample:nCode>
+        <UnivExample:nValue>France</UnivExample:nValue>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/NationalityLT -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/NationalityLT">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Nationality"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:nCode>LT</UnivExample:nCode>
+        <UnivExample:nValue>Lithuania</UnivExample:nValue>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/NationalityLV -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/NationalityLV">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Nationality"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:nCode>LV</UnivExample:nCode>
+        <UnivExample:nValue>Latvia</UnivExample:nValue>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/NationalityUK -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/NationalityUK">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Nationality"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:nCode>UK</UnivExample:nCode>
+        <UnivExample:nValue>United Kingdom</UnivExample:nValue>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/NationalityUS -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/NationalityUS">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Nationality"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:nCode>US</UnivExample:nCode>
+        <UnivExample:nValue>United States</UnivExample:nValue>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/Registration1 -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/Registration1">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Registration"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:course rdf:resource="http://data.lumii.lv/miniUniv/XCourse2"/>
+        <UnivExample:dateCompleted rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-22T00:00:00</UnivExample:dateCompleted>
+        <UnivExample:datePaid rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-10T00:00:00</UnivExample:datePaid>
+        <UnivExample:mark rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</UnivExample:mark>
+        <UnivExample:student rdf:resource="http://data.lumii.lv/miniUniv/XStudent1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/Registration10 -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/Registration10">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Registration"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:course rdf:resource="http://data.lumii.lv/miniUniv/XCourse5"/>
+        <UnivExample:dateCompleted rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-12T00:00:00</UnivExample:dateCompleted>
+        <UnivExample:datePaid rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-10T00:00:00</UnivExample:datePaid>
+        <UnivExample:mark rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</UnivExample:mark>
+        <UnivExample:student rdf:resource="http://data.lumii.lv/miniUniv/XStudent5"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/Registration11 -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/Registration11">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Registration"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:course rdf:resource="http://data.lumii.lv/miniUniv/XCourse4"/>
+        <UnivExample:dateCompleted rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-12T00:00:00</UnivExample:dateCompleted>
+        <UnivExample:datePaid rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-11T00:00:00</UnivExample:datePaid>
+        <UnivExample:mark rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</UnivExample:mark>
+        <UnivExample:student rdf:resource="http://data.lumii.lv/miniUniv/XStudent5"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/Registration12 -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/Registration12">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Registration"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:course rdf:resource="http://data.lumii.lv/miniUniv/XCourse5"/>
+        <UnivExample:datePaid rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-12T00:00:00</UnivExample:datePaid>
+        <UnivExample:student rdf:resource="http://data.lumii.lv/miniUniv/XStudent6"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/Registration13 -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/Registration13">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Registration"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:course rdf:resource="http://data.lumii.lv/miniUniv/XCourse5"/>
+        <UnivExample:dateCompleted rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-12T00:00:00</UnivExample:dateCompleted>
+        <UnivExample:datePaid rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-13T00:00:00</UnivExample:datePaid>
+        <UnivExample:mark rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</UnivExample:mark>
+        <UnivExample:student rdf:resource="http://data.lumii.lv/miniUniv/XStudent7"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/Registration14 -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/Registration14">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Registration"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:course rdf:resource="http://data.lumii.lv/miniUniv/XCourse1"/>
+        <UnivExample:dateCompleted rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-12T00:00:00</UnivExample:dateCompleted>
+        <UnivExample:datePaid rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-13T00:00:00</UnivExample:datePaid>
+        <UnivExample:mark rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</UnivExample:mark>
+        <UnivExample:student rdf:resource="http://data.lumii.lv/miniUniv/XStudent5"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/Registration2 -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/Registration2">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Registration"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:course rdf:resource="http://data.lumii.lv/miniUniv/XCourse4"/>
+        <UnivExample:dateCompleted rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-20T00:00:00</UnivExample:dateCompleted>
+        <UnivExample:datePaid rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-09T00:00:00</UnivExample:datePaid>
+        <UnivExample:mark rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</UnivExample:mark>
+        <UnivExample:student rdf:resource="http://data.lumii.lv/miniUniv/XStudent1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/Registration3 -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/Registration3">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Registration"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:course rdf:resource="http://data.lumii.lv/miniUniv/XCourse1"/>
+        <UnivExample:dateCompleted rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-23T00:00:00</UnivExample:dateCompleted>
+        <UnivExample:datePaid rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-17T00:00:00</UnivExample:datePaid>
+        <UnivExample:mark rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</UnivExample:mark>
+        <UnivExample:student rdf:resource="http://data.lumii.lv/miniUniv/XStudent2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/Registration4 -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/Registration4">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Registration"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:course rdf:resource="http://data.lumii.lv/miniUniv/XCourse3"/>
+        <UnivExample:student rdf:resource="http://data.lumii.lv/miniUniv/XStudent2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/Registration5 -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/Registration5">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Registration"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:course rdf:resource="http://data.lumii.lv/miniUniv/XCourse2"/>
+        <UnivExample:datePaid rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-08T00:00:00</UnivExample:datePaid>
+        <UnivExample:student rdf:resource="http://data.lumii.lv/miniUniv/XStudent3"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/Registration6 -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/Registration6">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Registration"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:course rdf:resource="http://data.lumii.lv/miniUniv/XCourse2"/>
+        <UnivExample:dateCompleted rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-12T00:00:00</UnivExample:dateCompleted>
+        <UnivExample:datePaid rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-08T00:00:00</UnivExample:datePaid>
+        <UnivExample:mark rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</UnivExample:mark>
+        <UnivExample:student rdf:resource="http://data.lumii.lv/miniUniv/XStudent5"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/Registration7 -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/Registration7">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Registration"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:course rdf:resource="http://data.lumii.lv/miniUniv/XCourse2"/>
+        <UnivExample:dateCompleted rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-12T00:00:00</UnivExample:dateCompleted>
+        <UnivExample:datePaid rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-08T00:00:00</UnivExample:datePaid>
+        <UnivExample:mark rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</UnivExample:mark>
+        <UnivExample:student rdf:resource="http://data.lumii.lv/miniUniv/XStudent6"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/Registration8 -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/Registration8">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Registration"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:course rdf:resource="http://data.lumii.lv/miniUniv/XCourse2"/>
+        <UnivExample:student rdf:resource="http://data.lumii.lv/miniUniv/XStudent7"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/Registration9 -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/Registration9">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Registration"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:course rdf:resource="http://data.lumii.lv/miniUniv/XCourse1"/>
+        <UnivExample:dateCompleted rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-12T00:00:00</UnivExample:dateCompleted>
+        <UnivExample:datePaid rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-09T00:00:00</UnivExample:datePaid>
+        <UnivExample:mark rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</UnivExample:mark>
+        <UnivExample:student rdf:resource="http://data.lumii.lv/miniUniv/XStudent5"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/XCourse1 -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/XCourse1">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Course"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#OptionalCourse"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:courseCode>CC0140</UnivExample:courseCode>
+        <UnivExample:courseCredits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</UnivExample:courseCredits>
+        <UnivExample:courseExtInfo>CC0140 (6)</UnivExample:courseExtInfo>
+        <UnivExample:courseName>Programming Basics</UnivExample:courseName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/XCourse2 -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/XCourse2">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Course"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#MandatoryCourse"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:courseCode>CC0207</UnivExample:courseCode>
+        <UnivExample:courseCredits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</UnivExample:courseCredits>
+        <UnivExample:courseExtInfo>CC0207 (6)</UnivExample:courseExtInfo>
+        <UnivExample:courseName>Semantic Web</UnivExample:courseName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/XCourse3 -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/XCourse3">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Course"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#MandatoryCourse"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:courseCode>CT1113</UnivExample:courseCode>
+        <UnivExample:courseCredits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</UnivExample:courseCredits>
+        <UnivExample:courseExtInfo>CT1113 (3)</UnivExample:courseExtInfo>
+        <UnivExample:courseName>Computer Networks</UnivExample:courseName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/XCourse4 -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/XCourse4">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Course"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#OptionalCourse"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:courseCode>CX5504</UnivExample:courseCode>
+        <UnivExample:courseCredits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</UnivExample:courseCredits>
+        <UnivExample:courseExtInfo>CX5504 (3)</UnivExample:courseExtInfo>
+        <UnivExample:courseName>Quantum Computations</UnivExample:courseName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/XCourse5 -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/XCourse5">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Course"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#OptionalCourse"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:courseCode>CC2158</UnivExample:courseCode>
+        <UnivExample:courseCredits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</UnivExample:courseCredits>
+        <UnivExample:courseExtInfo>CC2158 (3)</UnivExample:courseExtInfo>
+        <UnivExample:courseName>Programming Languages</UnivExample:courseName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/XProgram1 -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/XProgram1">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#AcademicProgram"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:includes rdf:resource="http://data.lumii.lv/miniUniv/XCourse2"/>
+        <UnivExample:includes rdf:resource="http://data.lumii.lv/miniUniv/XCourse4"/>
+        <UnivExample:includes rdf:resource="http://data.lumii.lv/miniUniv/XCourse5"/>
+        <UnivExample:programName>Computer Science</UnivExample:programName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/XProgram2 -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/XProgram2">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#AcademicProgram"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:includes rdf:resource="http://data.lumii.lv/miniUniv/XCourse1"/>
+        <UnivExample:includes rdf:resource="http://data.lumii.lv/miniUniv/XCourse3"/>
+        <UnivExample:programName>Computer Engeneering</UnivExample:programName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/XStudent1 -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/XStudent1">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Person"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Student"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:enrolled rdf:resource="http://data.lumii.lv/miniUniv/XProgram1"/>
+        <UnivExample:hasMark rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</UnivExample:hasMark>
+        <UnivExample:hasMark rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</UnivExample:hasMark>
+        <UnivExample:nationality rdf:resource="http://data.lumii.lv/miniUniv/NationalityLV"/>
+        <UnivExample:personID>123456789</UnivExample:personID>
+        <UnivExample:personName>Dave</UnivExample:personName>
+        <UnivExample:r rdf:resource="http://data.lumii.lv/miniUniv/Registration1"/>
+        <UnivExample:r rdf:resource="http://data.lumii.lv/miniUniv/Registration2"/>
+        <UnivExample:studentName>Dave</UnivExample:studentName>
+        <UnivExample:studentNumber>SX43376</UnivExample:studentNumber>
+        <UnivExample:takes rdf:resource="http://data.lumii.lv/miniUniv/XCourse2"/>
+        <UnivExample:takes rdf:resource="http://data.lumii.lv/miniUniv/XCourse4"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/XStudent2 -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/XStudent2">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Person"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Student"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:enrolled rdf:resource="http://data.lumii.lv/miniUniv/XProgram2"/>
+        <UnivExample:hasMark rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</UnivExample:hasMark>
+        <UnivExample:nationality rdf:resource="http://data.lumii.lv/miniUniv/NationalityEE"/>
+        <UnivExample:personID>987654321</UnivExample:personID>
+        <UnivExample:personName>Eve</UnivExample:personName>
+        <UnivExample:r rdf:resource="http://data.lumii.lv/miniUniv/Registration3"/>
+        <UnivExample:r rdf:resource="http://data.lumii.lv/miniUniv/Registration4"/>
+        <UnivExample:studentName>Eve</UnivExample:studentName>
+        <UnivExample:studentNumber>SX45675</UnivExample:studentNumber>
+        <UnivExample:takes rdf:resource="http://data.lumii.lv/miniUniv/XCourse1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/XStudent3 -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/XStudent3">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Person"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Student"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:enrolled rdf:resource="http://data.lumii.lv/miniUniv/XProgram1"/>
+        <UnivExample:nationality rdf:resource="http://data.lumii.lv/miniUniv/NationalityUK"/>
+        <UnivExample:personID>555555555</UnivExample:personID>
+        <UnivExample:personName>Charlie</UnivExample:personName>
+        <UnivExample:r rdf:resource="http://data.lumii.lv/miniUniv/Registration5"/>
+        <UnivExample:studentName>Charlie</UnivExample:studentName>
+        <UnivExample:studentNumber>SX43212</UnivExample:studentNumber>
+        <UnivExample:takes rdf:resource="http://data.lumii.lv/miniUniv/XCourse2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/XStudent4 -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/XStudent4">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Person"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Student"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:enrolled rdf:resource="http://data.lumii.lv/miniUniv/XProgram2"/>
+        <UnivExample:personID>345453432</UnivExample:personID>
+        <UnivExample:personName>Ivan</UnivExample:personName>
+        <UnivExample:studentName>Ivan</UnivExample:studentName>
+        <UnivExample:studentNumber>SY44333</UnivExample:studentNumber>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/XStudent5 -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/XStudent5">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Person"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Student"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:enrolled rdf:resource="http://data.lumii.lv/miniUniv/XProgram1"/>
+        <UnivExample:hasMark rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</UnivExample:hasMark>
+        <UnivExample:hasMark rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</UnivExample:hasMark>
+        <UnivExample:hasMark rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</UnivExample:hasMark>
+        <UnivExample:hasMark rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</UnivExample:hasMark>
+        <UnivExample:nationality rdf:resource="http://data.lumii.lv/miniUniv/NationalityLV"/>
+        <UnivExample:personID>222333444</UnivExample:personID>
+        <UnivExample:personName>Anna</UnivExample:personName>
+        <UnivExample:r rdf:resource="http://data.lumii.lv/miniUniv/Registration10"/>
+        <UnivExample:r rdf:resource="http://data.lumii.lv/miniUniv/Registration11"/>
+        <UnivExample:r rdf:resource="http://data.lumii.lv/miniUniv/Registration14"/>
+        <UnivExample:r rdf:resource="http://data.lumii.lv/miniUniv/Registration6"/>
+        <UnivExample:r rdf:resource="http://data.lumii.lv/miniUniv/Registration9"/>
+        <UnivExample:studentName>Anna</UnivExample:studentName>
+        <UnivExample:studentNumber>SX00012</UnivExample:studentNumber>
+        <UnivExample:takes rdf:resource="http://data.lumii.lv/miniUniv/XCourse1"/>
+        <UnivExample:takes rdf:resource="http://data.lumii.lv/miniUniv/XCourse2"/>
+        <UnivExample:takes rdf:resource="http://data.lumii.lv/miniUniv/XCourse4"/>
+        <UnivExample:takes rdf:resource="http://data.lumii.lv/miniUniv/XCourse5"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/XStudent6 -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/XStudent6">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Person"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Student"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:enrolled rdf:resource="http://data.lumii.lv/miniUniv/XProgram1"/>
+        <UnivExample:hasMark rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</UnivExample:hasMark>
+        <UnivExample:nationality rdf:resource="http://data.lumii.lv/miniUniv/NationalityEE"/>
+        <UnivExample:personID>232454656</UnivExample:personID>
+        <UnivExample:personName>Lucia</UnivExample:personName>
+        <UnivExample:r rdf:resource="http://data.lumii.lv/miniUniv/Registration12"/>
+        <UnivExample:r rdf:resource="http://data.lumii.lv/miniUniv/Registration7"/>
+        <UnivExample:studentName>Lucia</UnivExample:studentName>
+        <UnivExample:studentNumber>SX00014</UnivExample:studentNumber>
+        <UnivExample:takes rdf:resource="http://data.lumii.lv/miniUniv/XCourse2"/>
+        <UnivExample:takes rdf:resource="http://data.lumii.lv/miniUniv/XCourse5"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/XStudent7 -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/XStudent7">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Person"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Student"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:enrolled rdf:resource="http://data.lumii.lv/miniUniv/XProgram1"/>
+        <UnivExample:hasMark rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</UnivExample:hasMark>
+        <UnivExample:nationality rdf:resource="http://data.lumii.lv/miniUniv/NationalityLV"/>
+        <UnivExample:personID>565678785</UnivExample:personID>
+        <UnivExample:personName>Bob Jr</UnivExample:personName>
+        <UnivExample:r rdf:resource="http://data.lumii.lv/miniUniv/Registration13"/>
+        <UnivExample:r rdf:resource="http://data.lumii.lv/miniUniv/Registration8"/>
+        <UnivExample:studentName>Bob Jr</UnivExample:studentName>
+        <UnivExample:studentNumber>SX89987</UnivExample:studentNumber>
+        <UnivExample:takes rdf:resource="http://data.lumii.lv/miniUniv/XCourse5"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/XTeacher1 -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/XTeacher1">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Person"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Professor"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Teacher"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:facultyLevel rdf:resource="http://data.lumii.lv/miniUniv/Level_Professor"/>
+        <UnivExample:nationality rdf:resource="http://data.lumii.lv/miniUniv/NationalityUS"/>
+        <UnivExample:personID>999999999</UnivExample:personID>
+        <UnivExample:personName>Alice</UnivExample:personName>
+        <UnivExample:salary rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1810</UnivExample:salary>
+        <UnivExample:teacherName>Alice</UnivExample:teacherName>
+        <UnivExample:teaches rdf:resource="http://data.lumii.lv/miniUniv/XCourse1"/>
+        <UnivExample:teaches rdf:resource="http://data.lumii.lv/miniUniv/XCourse2"/>
+        <UnivExample:teaches rdf:resource="http://data.lumii.lv/miniUniv/XCourse3"/>
+        <UnivExample:teaches rdf:resource="http://data.lumii.lv/miniUniv/XCourse4"/>
+        <UnivExample:teaches rdf:resource="http://data.lumii.lv/miniUniv/XCourse5"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/XTeacher2 -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/XTeacher2">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Person"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Professor"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Teacher"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:facultyLevel rdf:resource="http://data.lumii.lv/miniUniv/Level_Professor"/>
+        <UnivExample:nationality rdf:resource="http://data.lumii.lv/miniUniv/NationalityLV"/>
+        <UnivExample:personID>777777777</UnivExample:personID>
+        <UnivExample:personName>Bob</UnivExample:personName>
+        <UnivExample:salary rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1655</UnivExample:salary>
+        <UnivExample:teacherName>Bob</UnivExample:teacherName>
+        <UnivExample:teaches rdf:resource="http://data.lumii.lv/miniUniv/XCourse1"/>
+        <UnivExample:teaches rdf:resource="http://data.lumii.lv/miniUniv/XCourse2"/>
+        <UnivExample:teaches rdf:resource="http://data.lumii.lv/miniUniv/XCourse3"/>
+        <UnivExample:teaches rdf:resource="http://data.lumii.lv/miniUniv/XCourse4"/>
+        <UnivExample:teaches rdf:resource="http://data.lumii.lv/miniUniv/XCourse5"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.lumii.lv/miniUniv/XTeacher3 -->
+
+
+    <NamedIndividual rdf:about="http://data.lumii.lv/miniUniv/XTeacher3">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Assistant"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Person"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Teacher"/>
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/UnivExample.owl#Thing"/>
+        <UnivExample:facultyLevel rdf:resource="http://data.lumii.lv/miniUniv/Level_Assistant"/>
+        <UnivExample:personID>555555555</UnivExample:personID>
+        <UnivExample:personName>Charlie</UnivExample:personName>
+        <UnivExample:salary rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1033</UnivExample:salary>
+        <UnivExample:teacherName>Charlie</UnivExample:teacherName>
+        <UnivExample:teaches rdf:resource="http://data.lumii.lv/miniUniv/XCourse1"/>
+        <UnivExample:teaches rdf:resource="http://data.lumii.lv/miniUniv/XCourse2"/>
+        <UnivExample:teaches rdf:resource="http://data.lumii.lv/miniUniv/XCourse3"/>
+        <UnivExample:teaches rdf:resource="http://data.lumii.lv/miniUniv/XCourse4"/>
+        <UnivExample:teaches rdf:resource="http://data.lumii.lv/miniUniv/XCourse5"/>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

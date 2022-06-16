@@ -1,0 +1,672 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://lumii.lv/ontologies/UnivExample.owl#acadTitle
+<http://lumii.lv/ontologies/UnivExample.owl#acadTitle> rdf:type owl:AnnotationProperty .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#course
+<http://lumii.lv/ontologies/UnivExample.owl#course> rdf:type owl:AnnotationProperty .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#courseCode
+<http://lumii.lv/ontologies/UnivExample.owl#courseCode> rdf:type owl:AnnotationProperty .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#courseCredits
+<http://lumii.lv/ontologies/UnivExample.owl#courseCredits> rdf:type owl:AnnotationProperty .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#courseExtInfo
+<http://lumii.lv/ontologies/UnivExample.owl#courseExtInfo> rdf:type owl:AnnotationProperty .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#courseName
+<http://lumii.lv/ontologies/UnivExample.owl#courseName> rdf:type owl:AnnotationProperty .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#dateCompleted
+<http://lumii.lv/ontologies/UnivExample.owl#dateCompleted> rdf:type owl:AnnotationProperty .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#datePaid
+<http://lumii.lv/ontologies/UnivExample.owl#datePaid> rdf:type owl:AnnotationProperty .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#enrolled
+<http://lumii.lv/ontologies/UnivExample.owl#enrolled> rdf:type owl:AnnotationProperty .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#facultyLevel
+<http://lumii.lv/ontologies/UnivExample.owl#facultyLevel> rdf:type owl:AnnotationProperty .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#hasMark
+<http://lumii.lv/ontologies/UnivExample.owl#hasMark> rdf:type owl:AnnotationProperty .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#includes
+<http://lumii.lv/ontologies/UnivExample.owl#includes> rdf:type owl:AnnotationProperty .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#mark
+<http://lumii.lv/ontologies/UnivExample.owl#mark> rdf:type owl:AnnotationProperty .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#nCode
+<http://lumii.lv/ontologies/UnivExample.owl#nCode> rdf:type owl:AnnotationProperty .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#nValue
+<http://lumii.lv/ontologies/UnivExample.owl#nValue> rdf:type owl:AnnotationProperty .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#nationality
+<http://lumii.lv/ontologies/UnivExample.owl#nationality> rdf:type owl:AnnotationProperty .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#personID
+<http://lumii.lv/ontologies/UnivExample.owl#personID> rdf:type owl:AnnotationProperty .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#personName
+<http://lumii.lv/ontologies/UnivExample.owl#personName> rdf:type owl:AnnotationProperty .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#programName
+<http://lumii.lv/ontologies/UnivExample.owl#programName> rdf:type owl:AnnotationProperty .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#r
+<http://lumii.lv/ontologies/UnivExample.owl#r> rdf:type owl:AnnotationProperty .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#salary
+<http://lumii.lv/ontologies/UnivExample.owl#salary> rdf:type owl:AnnotationProperty .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#student
+<http://lumii.lv/ontologies/UnivExample.owl#student> rdf:type owl:AnnotationProperty .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#studentName
+<http://lumii.lv/ontologies/UnivExample.owl#studentName> rdf:type owl:AnnotationProperty .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#studentNumber
+<http://lumii.lv/ontologies/UnivExample.owl#studentNumber> rdf:type owl:AnnotationProperty .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#takes
+<http://lumii.lv/ontologies/UnivExample.owl#takes> rdf:type owl:AnnotationProperty .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#teacherName
+<http://lumii.lv/ontologies/UnivExample.owl#teacherName> rdf:type owl:AnnotationProperty .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#teaches
+<http://lumii.lv/ontologies/UnivExample.owl#teaches> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://lumii.lv/ontologies/UnivExample.owl#AcademicProgram
+<http://lumii.lv/ontologies/UnivExample.owl#AcademicProgram> rdf:type owl:Class .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#Assistant
+<http://lumii.lv/ontologies/UnivExample.owl#Assistant> rdf:type owl:Class .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration
+<http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration> rdf:type owl:Class .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#Course
+<http://lumii.lv/ontologies/UnivExample.owl#Course> rdf:type owl:Class .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#FacultyLevel
+<http://lumii.lv/ontologies/UnivExample.owl#FacultyLevel> rdf:type owl:Class .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#MandatoryCourse
+<http://lumii.lv/ontologies/UnivExample.owl#MandatoryCourse> rdf:type owl:Class .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#Nationality
+<http://lumii.lv/ontologies/UnivExample.owl#Nationality> rdf:type owl:Class .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#OptionalCourse
+<http://lumii.lv/ontologies/UnivExample.owl#OptionalCourse> rdf:type owl:Class .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#Person
+<http://lumii.lv/ontologies/UnivExample.owl#Person> rdf:type owl:Class .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#Professor
+<http://lumii.lv/ontologies/UnivExample.owl#Professor> rdf:type owl:Class .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#Registration
+<http://lumii.lv/ontologies/UnivExample.owl#Registration> rdf:type owl:Class .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#Student
+<http://lumii.lv/ontologies/UnivExample.owl#Student> rdf:type owl:Class .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#Teacher
+<http://lumii.lv/ontologies/UnivExample.owl#Teacher> rdf:type owl:Class .
+
+
+###  http://lumii.lv/ontologies/UnivExample.owl#Thing
+<http://lumii.lv/ontologies/UnivExample.owl#Thing> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://data.lumii.lv/miniUniv/Level_Assistant
+<http://data.lumii.lv/miniUniv/Level_Assistant> rdf:type owl:NamedIndividual ,
+                                                         <http://lumii.lv/ontologies/UnivExample.owl#FacultyLevel> ,
+                                                         <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                                <http://lumii.lv/ontologies/UnivExample.owl#acadTitle> "Assistant" .
+
+
+###  http://data.lumii.lv/miniUniv/Level_AssocProfessor
+<http://data.lumii.lv/miniUniv/Level_AssocProfessor> rdf:type owl:NamedIndividual ,
+                                                              <http://lumii.lv/ontologies/UnivExample.owl#FacultyLevel> ,
+                                                              <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                                     <http://lumii.lv/ontologies/UnivExample.owl#acadTitle> "AssocProfessor" .
+
+
+###  http://data.lumii.lv/miniUniv/Level_Professor
+<http://data.lumii.lv/miniUniv/Level_Professor> rdf:type owl:NamedIndividual ,
+                                                         <http://lumii.lv/ontologies/UnivExample.owl#FacultyLevel> ,
+                                                         <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                                <http://lumii.lv/ontologies/UnivExample.owl#acadTitle> "Professor" .
+
+
+###  http://data.lumii.lv/miniUniv/NationalityDE
+<http://data.lumii.lv/miniUniv/NationalityDE> rdf:type owl:NamedIndividual ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Nationality> ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#nCode> "DE" ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#nValue> "Germany" .
+
+
+###  http://data.lumii.lv/miniUniv/NationalityEE
+<http://data.lumii.lv/miniUniv/NationalityEE> rdf:type owl:NamedIndividual ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Nationality> ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#nCode> "EE" ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#nValue> "Estonia" .
+
+
+###  http://data.lumii.lv/miniUniv/NationalityFR
+<http://data.lumii.lv/miniUniv/NationalityFR> rdf:type owl:NamedIndividual ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Nationality> ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#nCode> "FR" ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#nValue> "France" .
+
+
+###  http://data.lumii.lv/miniUniv/NationalityLT
+<http://data.lumii.lv/miniUniv/NationalityLT> rdf:type owl:NamedIndividual ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Nationality> ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#nCode> "LT" ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#nValue> "Lithuania" .
+
+
+###  http://data.lumii.lv/miniUniv/NationalityLV
+<http://data.lumii.lv/miniUniv/NationalityLV> rdf:type owl:NamedIndividual ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Nationality> ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#nCode> "LV" ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#nValue> "Latvia" .
+
+
+###  http://data.lumii.lv/miniUniv/NationalityUK
+<http://data.lumii.lv/miniUniv/NationalityUK> rdf:type owl:NamedIndividual ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Nationality> ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#nCode> "UK" ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#nValue> "United Kingdom" .
+
+
+###  http://data.lumii.lv/miniUniv/NationalityUS
+<http://data.lumii.lv/miniUniv/NationalityUS> rdf:type owl:NamedIndividual ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Nationality> ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#nCode> "US" ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#nValue> "United States" .
+
+
+###  http://data.lumii.lv/miniUniv/Registration1
+<http://data.lumii.lv/miniUniv/Registration1> rdf:type owl:NamedIndividual ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration> ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Registration> ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#course> <http://data.lumii.lv/miniUniv/XCourse2> ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#dateCompleted> "2013-06-22T00:00:00"^^xsd:dateTime ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#datePaid> "2013-01-10T00:00:00"^^xsd:dateTime ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#mark> 5 ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#student> <http://data.lumii.lv/miniUniv/XStudent1> .
+
+
+###  http://data.lumii.lv/miniUniv/Registration10
+<http://data.lumii.lv/miniUniv/Registration10> rdf:type owl:NamedIndividual ,
+                                                        <http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration> ,
+                                                        <http://lumii.lv/ontologies/UnivExample.owl#Registration> ,
+                                                        <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                               <http://lumii.lv/ontologies/UnivExample.owl#course> <http://data.lumii.lv/miniUniv/XCourse5> ;
+                                               <http://lumii.lv/ontologies/UnivExample.owl#dateCompleted> "2014-06-12T00:00:00"^^xsd:dateTime ;
+                                               <http://lumii.lv/ontologies/UnivExample.owl#datePaid> "2014-01-10T00:00:00"^^xsd:dateTime ;
+                                               <http://lumii.lv/ontologies/UnivExample.owl#mark> 8 ;
+                                               <http://lumii.lv/ontologies/UnivExample.owl#student> <http://data.lumii.lv/miniUniv/XStudent5> .
+
+
+###  http://data.lumii.lv/miniUniv/Registration11
+<http://data.lumii.lv/miniUniv/Registration11> rdf:type owl:NamedIndividual ,
+                                                        <http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration> ,
+                                                        <http://lumii.lv/ontologies/UnivExample.owl#Registration> ,
+                                                        <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                               <http://lumii.lv/ontologies/UnivExample.owl#course> <http://data.lumii.lv/miniUniv/XCourse4> ;
+                                               <http://lumii.lv/ontologies/UnivExample.owl#dateCompleted> "2014-06-12T00:00:00"^^xsd:dateTime ;
+                                               <http://lumii.lv/ontologies/UnivExample.owl#datePaid> "2014-01-11T00:00:00"^^xsd:dateTime ;
+                                               <http://lumii.lv/ontologies/UnivExample.owl#mark> 7 ;
+                                               <http://lumii.lv/ontologies/UnivExample.owl#student> <http://data.lumii.lv/miniUniv/XStudent5> .
+
+
+###  http://data.lumii.lv/miniUniv/Registration12
+<http://data.lumii.lv/miniUniv/Registration12> rdf:type owl:NamedIndividual ,
+                                                        <http://lumii.lv/ontologies/UnivExample.owl#Registration> ,
+                                                        <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                               <http://lumii.lv/ontologies/UnivExample.owl#course> <http://data.lumii.lv/miniUniv/XCourse5> ;
+                                               <http://lumii.lv/ontologies/UnivExample.owl#datePaid> "2014-01-12T00:00:00"^^xsd:dateTime ;
+                                               <http://lumii.lv/ontologies/UnivExample.owl#student> <http://data.lumii.lv/miniUniv/XStudent6> .
+
+
+###  http://data.lumii.lv/miniUniv/Registration13
+<http://data.lumii.lv/miniUniv/Registration13> rdf:type owl:NamedIndividual ,
+                                                        <http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration> ,
+                                                        <http://lumii.lv/ontologies/UnivExample.owl#Registration> ,
+                                                        <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                               <http://lumii.lv/ontologies/UnivExample.owl#course> <http://data.lumii.lv/miniUniv/XCourse5> ;
+                                               <http://lumii.lv/ontologies/UnivExample.owl#dateCompleted> "2014-06-12T00:00:00"^^xsd:dateTime ;
+                                               <http://lumii.lv/ontologies/UnivExample.owl#datePaid> "2014-01-13T00:00:00"^^xsd:dateTime ;
+                                               <http://lumii.lv/ontologies/UnivExample.owl#mark> 6 ;
+                                               <http://lumii.lv/ontologies/UnivExample.owl#student> <http://data.lumii.lv/miniUniv/XStudent7> .
+
+
+###  http://data.lumii.lv/miniUniv/Registration14
+<http://data.lumii.lv/miniUniv/Registration14> rdf:type owl:NamedIndividual ,
+                                                        <http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration> ,
+                                                        <http://lumii.lv/ontologies/UnivExample.owl#Registration> ,
+                                                        <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                               <http://lumii.lv/ontologies/UnivExample.owl#course> <http://data.lumii.lv/miniUniv/XCourse1> ;
+                                               <http://lumii.lv/ontologies/UnivExample.owl#dateCompleted> "2014-06-12T00:00:00"^^xsd:dateTime ;
+                                               <http://lumii.lv/ontologies/UnivExample.owl#datePaid> "2014-01-13T00:00:00"^^xsd:dateTime ;
+                                               <http://lumii.lv/ontologies/UnivExample.owl#mark> 10 ;
+                                               <http://lumii.lv/ontologies/UnivExample.owl#student> <http://data.lumii.lv/miniUniv/XStudent5> .
+
+
+###  http://data.lumii.lv/miniUniv/Registration2
+<http://data.lumii.lv/miniUniv/Registration2> rdf:type owl:NamedIndividual ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration> ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Registration> ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#course> <http://data.lumii.lv/miniUniv/XCourse4> ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#dateCompleted> "2013-06-20T00:00:00"^^xsd:dateTime ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#datePaid> "2013-01-09T00:00:00"^^xsd:dateTime ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#mark> 8 ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#student> <http://data.lumii.lv/miniUniv/XStudent1> .
+
+
+###  http://data.lumii.lv/miniUniv/Registration3
+<http://data.lumii.lv/miniUniv/Registration3> rdf:type owl:NamedIndividual ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration> ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Registration> ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#course> <http://data.lumii.lv/miniUniv/XCourse1> ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#dateCompleted> "2013-07-23T00:00:00"^^xsd:dateTime ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#datePaid> "2012-12-17T00:00:00"^^xsd:dateTime ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#mark> 8 ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#student> <http://data.lumii.lv/miniUniv/XStudent2> .
+
+
+###  http://data.lumii.lv/miniUniv/Registration4
+<http://data.lumii.lv/miniUniv/Registration4> rdf:type owl:NamedIndividual ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Registration> ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#course> <http://data.lumii.lv/miniUniv/XCourse3> ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#student> <http://data.lumii.lv/miniUniv/XStudent2> .
+
+
+###  http://data.lumii.lv/miniUniv/Registration5
+<http://data.lumii.lv/miniUniv/Registration5> rdf:type owl:NamedIndividual ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Registration> ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#course> <http://data.lumii.lv/miniUniv/XCourse2> ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#datePaid> "2014-01-08T00:00:00"^^xsd:dateTime ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#student> <http://data.lumii.lv/miniUniv/XStudent3> .
+
+
+###  http://data.lumii.lv/miniUniv/Registration6
+<http://data.lumii.lv/miniUniv/Registration6> rdf:type owl:NamedIndividual ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration> ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Registration> ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#course> <http://data.lumii.lv/miniUniv/XCourse2> ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#dateCompleted> "2014-06-12T00:00:00"^^xsd:dateTime ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#datePaid> "2014-01-08T00:00:00"^^xsd:dateTime ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#mark> 4 ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#student> <http://data.lumii.lv/miniUniv/XStudent5> .
+
+
+###  http://data.lumii.lv/miniUniv/Registration7
+<http://data.lumii.lv/miniUniv/Registration7> rdf:type owl:NamedIndividual ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration> ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Registration> ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#course> <http://data.lumii.lv/miniUniv/XCourse2> ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#dateCompleted> "2014-06-12T00:00:00"^^xsd:dateTime ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#datePaid> "2014-01-08T00:00:00"^^xsd:dateTime ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#mark> 7 ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#student> <http://data.lumii.lv/miniUniv/XStudent6> .
+
+
+###  http://data.lumii.lv/miniUniv/Registration8
+<http://data.lumii.lv/miniUniv/Registration8> rdf:type owl:NamedIndividual ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Registration> ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#course> <http://data.lumii.lv/miniUniv/XCourse2> ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#student> <http://data.lumii.lv/miniUniv/XStudent7> .
+
+
+###  http://data.lumii.lv/miniUniv/Registration9
+<http://data.lumii.lv/miniUniv/Registration9> rdf:type owl:NamedIndividual ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration> ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Registration> ,
+                                                       <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#course> <http://data.lumii.lv/miniUniv/XCourse1> ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#dateCompleted> "2014-06-12T00:00:00"^^xsd:dateTime ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#datePaid> "2014-01-09T00:00:00"^^xsd:dateTime ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#mark> 8 ;
+                                              <http://lumii.lv/ontologies/UnivExample.owl#student> <http://data.lumii.lv/miniUniv/XStudent5> .
+
+
+###  http://data.lumii.lv/miniUniv/XCourse1
+<http://data.lumii.lv/miniUniv/XCourse1> rdf:type owl:NamedIndividual ,
+                                                  <http://lumii.lv/ontologies/UnivExample.owl#Course> ,
+                                                  <http://lumii.lv/ontologies/UnivExample.owl#OptionalCourse> ,
+                                                  <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                         <http://lumii.lv/ontologies/UnivExample.owl#courseCode> "CC0140" ;
+                                         <http://lumii.lv/ontologies/UnivExample.owl#courseCredits> 6 ;
+                                         <http://lumii.lv/ontologies/UnivExample.owl#courseExtInfo> "CC0140 (6)" ;
+                                         <http://lumii.lv/ontologies/UnivExample.owl#courseName> "Programming Basics" .
+
+
+###  http://data.lumii.lv/miniUniv/XCourse2
+<http://data.lumii.lv/miniUniv/XCourse2> rdf:type owl:NamedIndividual ,
+                                                  <http://lumii.lv/ontologies/UnivExample.owl#Course> ,
+                                                  <http://lumii.lv/ontologies/UnivExample.owl#MandatoryCourse> ,
+                                                  <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                         <http://lumii.lv/ontologies/UnivExample.owl#courseCode> "CC0207" ;
+                                         <http://lumii.lv/ontologies/UnivExample.owl#courseCredits> 6 ;
+                                         <http://lumii.lv/ontologies/UnivExample.owl#courseExtInfo> "CC0207 (6)" ;
+                                         <http://lumii.lv/ontologies/UnivExample.owl#courseName> "Semantic Web" .
+
+
+###  http://data.lumii.lv/miniUniv/XCourse3
+<http://data.lumii.lv/miniUniv/XCourse3> rdf:type owl:NamedIndividual ,
+                                                  <http://lumii.lv/ontologies/UnivExample.owl#Course> ,
+                                                  <http://lumii.lv/ontologies/UnivExample.owl#MandatoryCourse> ,
+                                                  <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                         <http://lumii.lv/ontologies/UnivExample.owl#courseCode> "CT1113" ;
+                                         <http://lumii.lv/ontologies/UnivExample.owl#courseCredits> 3 ;
+                                         <http://lumii.lv/ontologies/UnivExample.owl#courseExtInfo> "CT1113 (3)" ;
+                                         <http://lumii.lv/ontologies/UnivExample.owl#courseName> "Computer Networks" .
+
+
+###  http://data.lumii.lv/miniUniv/XCourse4
+<http://data.lumii.lv/miniUniv/XCourse4> rdf:type owl:NamedIndividual ,
+                                                  <http://lumii.lv/ontologies/UnivExample.owl#Course> ,
+                                                  <http://lumii.lv/ontologies/UnivExample.owl#OptionalCourse> ,
+                                                  <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                         <http://lumii.lv/ontologies/UnivExample.owl#courseCode> "CX5504" ;
+                                         <http://lumii.lv/ontologies/UnivExample.owl#courseCredits> 3 ;
+                                         <http://lumii.lv/ontologies/UnivExample.owl#courseExtInfo> "CX5504 (3)" ;
+                                         <http://lumii.lv/ontologies/UnivExample.owl#courseName> "Quantum Computations" .
+
+
+###  http://data.lumii.lv/miniUniv/XCourse5
+<http://data.lumii.lv/miniUniv/XCourse5> rdf:type owl:NamedIndividual ,
+                                                  <http://lumii.lv/ontologies/UnivExample.owl#Course> ,
+                                                  <http://lumii.lv/ontologies/UnivExample.owl#OptionalCourse> ,
+                                                  <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                         <http://lumii.lv/ontologies/UnivExample.owl#courseCode> "CC2158" ;
+                                         <http://lumii.lv/ontologies/UnivExample.owl#courseCredits> 3 ;
+                                         <http://lumii.lv/ontologies/UnivExample.owl#courseExtInfo> "CC2158 (3)" ;
+                                         <http://lumii.lv/ontologies/UnivExample.owl#courseName> "Programming Languages" .
+
+
+###  http://data.lumii.lv/miniUniv/XProgram1
+<http://data.lumii.lv/miniUniv/XProgram1> rdf:type owl:NamedIndividual ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#AcademicProgram> ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#includes> <http://data.lumii.lv/miniUniv/XCourse2> ,
+                                                                                                <http://data.lumii.lv/miniUniv/XCourse4> ,
+                                                                                                <http://data.lumii.lv/miniUniv/XCourse5> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#programName> "Computer Science" .
+
+
+###  http://data.lumii.lv/miniUniv/XProgram2
+<http://data.lumii.lv/miniUniv/XProgram2> rdf:type owl:NamedIndividual ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#AcademicProgram> ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#includes> <http://data.lumii.lv/miniUniv/XCourse1> ,
+                                                                                                <http://data.lumii.lv/miniUniv/XCourse3> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#programName> "Computer Engeneering" .
+
+
+###  http://data.lumii.lv/miniUniv/XStudent1
+<http://data.lumii.lv/miniUniv/XStudent1> rdf:type owl:NamedIndividual ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Person> ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Student> ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#enrolled> <http://data.lumii.lv/miniUniv/XProgram1> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#hasMark> 5 ,
+                                                                                               8 ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#nationality> <http://data.lumii.lv/miniUniv/NationalityLV> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#personID> "123456789" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#personName> "Dave" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#r> <http://data.lumii.lv/miniUniv/Registration1> ,
+                                                                                         <http://data.lumii.lv/miniUniv/Registration2> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#studentName> "Dave" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#studentNumber> "SX43376" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#takes> <http://data.lumii.lv/miniUniv/XCourse2> ,
+                                                                                             <http://data.lumii.lv/miniUniv/XCourse4> .
+
+
+###  http://data.lumii.lv/miniUniv/XStudent2
+<http://data.lumii.lv/miniUniv/XStudent2> rdf:type owl:NamedIndividual ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Person> ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Student> ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#enrolled> <http://data.lumii.lv/miniUniv/XProgram2> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#hasMark> 8 ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#nationality> <http://data.lumii.lv/miniUniv/NationalityEE> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#personID> "987654321" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#personName> "Eve" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#r> <http://data.lumii.lv/miniUniv/Registration3> ,
+                                                                                         <http://data.lumii.lv/miniUniv/Registration4> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#studentName> "Eve" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#studentNumber> "SX45675" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#takes> <http://data.lumii.lv/miniUniv/XCourse1> .
+
+
+###  http://data.lumii.lv/miniUniv/XStudent3
+<http://data.lumii.lv/miniUniv/XStudent3> rdf:type owl:NamedIndividual ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Person> ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Student> ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#enrolled> <http://data.lumii.lv/miniUniv/XProgram1> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#nationality> <http://data.lumii.lv/miniUniv/NationalityUK> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#personID> "555555555" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#personName> "Charlie" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#r> <http://data.lumii.lv/miniUniv/Registration5> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#studentName> "Charlie" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#studentNumber> "SX43212" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#takes> <http://data.lumii.lv/miniUniv/XCourse2> .
+
+
+###  http://data.lumii.lv/miniUniv/XStudent4
+<http://data.lumii.lv/miniUniv/XStudent4> rdf:type owl:NamedIndividual ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Person> ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Student> ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#enrolled> <http://data.lumii.lv/miniUniv/XProgram2> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#personID> "345453432" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#personName> "Ivan" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#studentName> "Ivan" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#studentNumber> "SY44333" .
+
+
+###  http://data.lumii.lv/miniUniv/XStudent5
+<http://data.lumii.lv/miniUniv/XStudent5> rdf:type owl:NamedIndividual ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Person> ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Student> ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#enrolled> <http://data.lumii.lv/miniUniv/XProgram1> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#hasMark> 10 ,
+                                                                                               4 ,
+                                                                                               7 ,
+                                                                                               8 ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#nationality> <http://data.lumii.lv/miniUniv/NationalityLV> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#personID> "222333444" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#personName> "Anna" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#r> <http://data.lumii.lv/miniUniv/Registration10> ,
+                                                                                         <http://data.lumii.lv/miniUniv/Registration11> ,
+                                                                                         <http://data.lumii.lv/miniUniv/Registration14> ,
+                                                                                         <http://data.lumii.lv/miniUniv/Registration6> ,
+                                                                                         <http://data.lumii.lv/miniUniv/Registration9> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#studentName> "Anna" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#studentNumber> "SX00012" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#takes> <http://data.lumii.lv/miniUniv/XCourse1> ,
+                                                                                             <http://data.lumii.lv/miniUniv/XCourse2> ,
+                                                                                             <http://data.lumii.lv/miniUniv/XCourse4> ,
+                                                                                             <http://data.lumii.lv/miniUniv/XCourse5> .
+
+
+###  http://data.lumii.lv/miniUniv/XStudent6
+<http://data.lumii.lv/miniUniv/XStudent6> rdf:type owl:NamedIndividual ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Person> ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Student> ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#enrolled> <http://data.lumii.lv/miniUniv/XProgram1> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#hasMark> 7 ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#nationality> <http://data.lumii.lv/miniUniv/NationalityEE> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#personID> "232454656" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#personName> "Lucia" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#r> <http://data.lumii.lv/miniUniv/Registration12> ,
+                                                                                         <http://data.lumii.lv/miniUniv/Registration7> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#studentName> "Lucia" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#studentNumber> "SX00014" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#takes> <http://data.lumii.lv/miniUniv/XCourse2> ,
+                                                                                             <http://data.lumii.lv/miniUniv/XCourse5> .
+
+
+###  http://data.lumii.lv/miniUniv/XStudent7
+<http://data.lumii.lv/miniUniv/XStudent7> rdf:type owl:NamedIndividual ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Person> ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Student> ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#enrolled> <http://data.lumii.lv/miniUniv/XProgram1> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#hasMark> 6 ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#nationality> <http://data.lumii.lv/miniUniv/NationalityLV> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#personID> "565678785" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#personName> "Bob Jr" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#r> <http://data.lumii.lv/miniUniv/Registration13> ,
+                                                                                         <http://data.lumii.lv/miniUniv/Registration8> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#studentName> "Bob Jr" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#studentNumber> "SX89987" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#takes> <http://data.lumii.lv/miniUniv/XCourse5> .
+
+
+###  http://data.lumii.lv/miniUniv/XTeacher1
+<http://data.lumii.lv/miniUniv/XTeacher1> rdf:type owl:NamedIndividual ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Person> ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Professor> ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Teacher> ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#facultyLevel> <http://data.lumii.lv/miniUniv/Level_Professor> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#nationality> <http://data.lumii.lv/miniUniv/NationalityUS> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#personID> "999999999" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#personName> "Alice" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#salary> 1810 ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#teacherName> "Alice" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#teaches> <http://data.lumii.lv/miniUniv/XCourse1> ,
+                                                                                               <http://data.lumii.lv/miniUniv/XCourse2> ,
+                                                                                               <http://data.lumii.lv/miniUniv/XCourse3> ,
+                                                                                               <http://data.lumii.lv/miniUniv/XCourse4> ,
+                                                                                               <http://data.lumii.lv/miniUniv/XCourse5> .
+
+
+###  http://data.lumii.lv/miniUniv/XTeacher2
+<http://data.lumii.lv/miniUniv/XTeacher2> rdf:type owl:NamedIndividual ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Person> ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Professor> ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Teacher> ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#facultyLevel> <http://data.lumii.lv/miniUniv/Level_Professor> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#nationality> <http://data.lumii.lv/miniUniv/NationalityLV> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#personID> "777777777" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#personName> "Bob" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#salary> 1655 ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#teacherName> "Bob" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#teaches> <http://data.lumii.lv/miniUniv/XCourse1> ,
+                                                                                               <http://data.lumii.lv/miniUniv/XCourse2> ,
+                                                                                               <http://data.lumii.lv/miniUniv/XCourse3> ,
+                                                                                               <http://data.lumii.lv/miniUniv/XCourse4> ,
+                                                                                               <http://data.lumii.lv/miniUniv/XCourse5> .
+
+
+###  http://data.lumii.lv/miniUniv/XTeacher3
+<http://data.lumii.lv/miniUniv/XTeacher3> rdf:type owl:NamedIndividual ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Assistant> ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Person> ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Teacher> ,
+                                                   <http://lumii.lv/ontologies/UnivExample.owl#Thing> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#facultyLevel> <http://data.lumii.lv/miniUniv/Level_Assistant> ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#personID> "555555555" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#personName> "Charlie" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#salary> 1033 ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#teacherName> "Charlie" ;
+                                          <http://lumii.lv/ontologies/UnivExample.owl#teaches> <http://data.lumii.lv/miniUniv/XCourse1> ,
+                                                                                               <http://data.lumii.lv/miniUniv/XCourse2> ,
+                                                                                               <http://data.lumii.lv/miniUniv/XCourse3> ,
+                                                                                               <http://data.lumii.lv/miniUniv/XCourse4> ,
+                                                                                               <http://data.lumii.lv/miniUniv/XCourse5> .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
