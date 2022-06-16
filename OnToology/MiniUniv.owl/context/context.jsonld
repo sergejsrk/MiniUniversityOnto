@@ -1,0 +1,127 @@
+{
+  "@context" : {
+    "teaches" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#teaches"
+    },
+    "facultyLevel" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#facultyLevel"
+    },
+    "courseCredits" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#courseCredits"
+    },
+    "Professor" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Professor"
+    },
+    "includes" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#includes"
+    },
+    "Thing" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+    },
+    "acadTitle" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#acadTitle"
+    },
+    "Course" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Course"
+    },
+    "Teacher" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Teacher"
+    },
+    "datePaid" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#datePaid"
+    },
+    "dateCompleted" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#dateCompleted"
+    },
+    "salary" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#salary"
+    },
+    "CompletedRegistration" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration"
+    },
+    "teacherName" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#teacherName"
+    },
+    "takes" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#takes"
+    },
+    "Assistant" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Assistant"
+    },
+    "courseCode" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#courseCode"
+    },
+    "Nationality" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Nationality"
+    },
+    "Person" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Person"
+    },
+    "hasMark" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#hasMark"
+    },
+    "MandatoryCourse" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#MandatoryCourse"
+    },
+    "studentNumber" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#studentNumber"
+    },
+    "personName" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#personName"
+    },
+    "courseName" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#courseName"
+    },
+    "student" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#student"
+    },
+    "courseExtInfo" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#courseExtInfo"
+    },
+    "OptionalCourse" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#OptionalCourse"
+    },
+    "nValue" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#nValue"
+    },
+    "AcademicProgram" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#AcademicProgram"
+    },
+    "programName" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#programName"
+    },
+    "FacultyLevel" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#FacultyLevel"
+    },
+    "r" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#r"
+    },
+    "personID" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#personID"
+    },
+    "studentName" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#studentName"
+    },
+    "Registration" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Registration"
+    },
+    "enrolled" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#enrolled"
+    },
+    "nCode" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#nCode"
+    },
+    "Student" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Student"
+    },
+    "mark" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#mark"
+    },
+    "course" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#course"
+    },
+    "nationality" : {
+      "@id" : "http://lumii.lv/ontologies/UnivExample.owl#nationality"
+    }
+  }
+}

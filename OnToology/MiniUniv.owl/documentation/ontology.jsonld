@@ -1,0 +1,1161 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/Level_Assistant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#acadTitle" : [ {
+    "@value" : "Assistant"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#FacultyLevel"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/Level_AssocProfessor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#acadTitle" : [ {
+    "@value" : "AssocProfessor"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#FacultyLevel"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/Level_Professor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#acadTitle" : [ {
+    "@value" : "Professor"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#FacultyLevel"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/NationalityDE",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#nCode" : [ {
+    "@value" : "DE"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#nValue" : [ {
+    "@value" : "Germany"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Nationality"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/NationalityEE",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#nCode" : [ {
+    "@value" : "EE"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#nValue" : [ {
+    "@value" : "Estonia"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Nationality"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/NationalityFR",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#nCode" : [ {
+    "@value" : "FR"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#nValue" : [ {
+    "@value" : "France"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Nationality"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/NationalityLT",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#nCode" : [ {
+    "@value" : "LT"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#nValue" : [ {
+    "@value" : "Lithuania"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Nationality"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/NationalityLV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#nCode" : [ {
+    "@value" : "LV"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#nValue" : [ {
+    "@value" : "Latvia"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Nationality"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/NationalityUK",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#nCode" : [ {
+    "@value" : "UK"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#nValue" : [ {
+    "@value" : "United Kingdom"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Nationality"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/NationalityUS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#nCode" : [ {
+    "@value" : "US"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#nValue" : [ {
+    "@value" : "United States"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Nationality"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/Registration1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#course" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse2"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#dateCompleted" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2013-06-22T00:00:00"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#datePaid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2013-01-10T00:00:00"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#mark" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#student" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XStudent1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Registration"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/Registration10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#course" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse5"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#dateCompleted" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2014-06-12T00:00:00"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#datePaid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2014-01-10T00:00:00"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#mark" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "8"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#student" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XStudent5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Registration"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/Registration11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#course" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse4"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#dateCompleted" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2014-06-12T00:00:00"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#datePaid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2014-01-11T00:00:00"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#mark" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "7"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#student" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XStudent5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Registration"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/Registration12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#course" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse5"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#datePaid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2014-01-12T00:00:00"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#student" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XStudent6"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Registration"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/Registration13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#course" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse5"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#dateCompleted" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2014-06-12T00:00:00"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#datePaid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2014-01-13T00:00:00"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#mark" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "6"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#student" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XStudent7"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Registration"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/Registration14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#course" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse1"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#dateCompleted" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2014-06-12T00:00:00"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#datePaid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2014-01-13T00:00:00"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#mark" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#student" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XStudent5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Registration"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/Registration2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#course" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse4"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#dateCompleted" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2013-06-20T00:00:00"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#datePaid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2013-01-09T00:00:00"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#mark" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "8"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#student" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XStudent1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Registration"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/Registration3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#course" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse1"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#dateCompleted" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2013-07-23T00:00:00"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#datePaid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2012-12-17T00:00:00"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#mark" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "8"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#student" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XStudent2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Registration"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/Registration4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#course" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse3"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#student" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XStudent2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Registration"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/Registration5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#course" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse2"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#datePaid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2014-01-08T00:00:00"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#student" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XStudent3"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Registration"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/Registration6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#course" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse2"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#dateCompleted" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2014-06-12T00:00:00"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#datePaid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2014-01-08T00:00:00"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#mark" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "4"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#student" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XStudent5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Registration"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/Registration7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#course" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse2"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#dateCompleted" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2014-06-12T00:00:00"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#datePaid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2014-01-08T00:00:00"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#mark" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "7"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#student" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XStudent6"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Registration"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/Registration8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#course" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse2"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#student" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XStudent7"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Registration"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/Registration9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#course" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse1"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#dateCompleted" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2014-06-12T00:00:00"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#datePaid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2014-01-09T00:00:00"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#mark" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "8"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#student" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XStudent5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Registration"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/XCourse1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#courseCode" : [ {
+    "@value" : "CC0140"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#courseCredits" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "6"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#courseExtInfo" : [ {
+    "@value" : "CC0140 (6)"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#courseName" : [ {
+    "@value" : "Programming Basics"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Course"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#OptionalCourse"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/XCourse2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#courseCode" : [ {
+    "@value" : "CC0207"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#courseCredits" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "6"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#courseExtInfo" : [ {
+    "@value" : "CC0207 (6)"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#courseName" : [ {
+    "@value" : "Semantic Web"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Course"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#MandatoryCourse"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/XCourse3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#courseCode" : [ {
+    "@value" : "CT1113"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#courseCredits" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#courseExtInfo" : [ {
+    "@value" : "CT1113 (3)"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#courseName" : [ {
+    "@value" : "Computer Networks"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Course"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#MandatoryCourse"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/XCourse4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#courseCode" : [ {
+    "@value" : "CX5504"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#courseCredits" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#courseExtInfo" : [ {
+    "@value" : "CX5504 (3)"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#courseName" : [ {
+    "@value" : "Quantum Computations"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Course"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#OptionalCourse"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/XCourse5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#courseCode" : [ {
+    "@value" : "CC2158"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#courseCredits" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#courseExtInfo" : [ {
+    "@value" : "CC2158 (3)"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#courseName" : [ {
+    "@value" : "Programming Languages"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Course"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#OptionalCourse"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/XProgram1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#includes" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse2"
+  }, {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse4"
+  }, {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse5"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#programName" : [ {
+    "@value" : "Computer Science"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#AcademicProgram"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/XProgram2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#includes" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse1"
+  }, {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse3"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#programName" : [ {
+    "@value" : "Computer Engeneering"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#AcademicProgram"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/XStudent1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#enrolled" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XProgram1"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#hasMark" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "8"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#nationality" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/NationalityLV"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#personID" : [ {
+    "@value" : "123456789"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#personName" : [ {
+    "@value" : "Dave"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#r" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/Registration1"
+  }, {
+    "@id" : "http://data.lumii.lv/miniUniv/Registration2"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#studentName" : [ {
+    "@value" : "Dave"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#studentNumber" : [ {
+    "@value" : "SX43376"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#takes" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse2"
+  }, {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Person"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Student"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/XStudent2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#enrolled" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XProgram2"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#hasMark" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "8"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#nationality" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/NationalityEE"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#personID" : [ {
+    "@value" : "987654321"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#personName" : [ {
+    "@value" : "Eve"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#r" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/Registration3"
+  }, {
+    "@id" : "http://data.lumii.lv/miniUniv/Registration4"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#studentName" : [ {
+    "@value" : "Eve"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#studentNumber" : [ {
+    "@value" : "SX45675"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#takes" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Person"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Student"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/XStudent3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#enrolled" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XProgram1"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#nationality" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/NationalityUK"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#personID" : [ {
+    "@value" : "555555555"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#personName" : [ {
+    "@value" : "Charlie"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#r" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/Registration5"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#studentName" : [ {
+    "@value" : "Charlie"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#studentNumber" : [ {
+    "@value" : "SX43212"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#takes" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Person"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Student"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/XStudent4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#enrolled" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XProgram2"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#personID" : [ {
+    "@value" : "345453432"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#personName" : [ {
+    "@value" : "Ivan"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#studentName" : [ {
+    "@value" : "Ivan"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#studentNumber" : [ {
+    "@value" : "SY44333"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Person"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Student"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/XStudent5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#enrolled" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XProgram1"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#hasMark" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "4"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "7"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "8"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#nationality" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/NationalityLV"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#personID" : [ {
+    "@value" : "222333444"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#personName" : [ {
+    "@value" : "Anna"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#r" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/Registration10"
+  }, {
+    "@id" : "http://data.lumii.lv/miniUniv/Registration11"
+  }, {
+    "@id" : "http://data.lumii.lv/miniUniv/Registration14"
+  }, {
+    "@id" : "http://data.lumii.lv/miniUniv/Registration6"
+  }, {
+    "@id" : "http://data.lumii.lv/miniUniv/Registration9"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#studentName" : [ {
+    "@value" : "Anna"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#studentNumber" : [ {
+    "@value" : "SX00012"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#takes" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse1"
+  }, {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse2"
+  }, {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse4"
+  }, {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Person"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Student"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/XStudent6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#enrolled" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XProgram1"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#hasMark" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "7"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#nationality" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/NationalityEE"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#personID" : [ {
+    "@value" : "232454656"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#personName" : [ {
+    "@value" : "Lucia"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#r" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/Registration12"
+  }, {
+    "@id" : "http://data.lumii.lv/miniUniv/Registration7"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#studentName" : [ {
+    "@value" : "Lucia"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#studentNumber" : [ {
+    "@value" : "SX00014"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#takes" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse2"
+  }, {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Person"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Student"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/XStudent7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#enrolled" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XProgram1"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#hasMark" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "6"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#nationality" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/NationalityLV"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#personID" : [ {
+    "@value" : "565678785"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#personName" : [ {
+    "@value" : "Bob Jr"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#r" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/Registration13"
+  }, {
+    "@id" : "http://data.lumii.lv/miniUniv/Registration8"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#studentName" : [ {
+    "@value" : "Bob Jr"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#studentNumber" : [ {
+    "@value" : "SX89987"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#takes" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Person"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Student"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/XTeacher1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#facultyLevel" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/Level_Professor"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#nationality" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/NationalityUS"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#personID" : [ {
+    "@value" : "999999999"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#personName" : [ {
+    "@value" : "Alice"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#salary" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1810"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#teacherName" : [ {
+    "@value" : "Alice"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#teaches" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse1"
+  }, {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse2"
+  }, {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse3"
+  }, {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse4"
+  }, {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Person"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Professor"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Teacher"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/XTeacher2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#facultyLevel" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/Level_Professor"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#nationality" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/NationalityLV"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#personID" : [ {
+    "@value" : "777777777"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#personName" : [ {
+    "@value" : "Bob"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#salary" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1655"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#teacherName" : [ {
+    "@value" : "Bob"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#teaches" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse1"
+  }, {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse2"
+  }, {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse3"
+  }, {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse4"
+  }, {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Person"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Professor"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Teacher"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://data.lumii.lv/miniUniv/XTeacher3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://lumii.lv/ontologies/UnivExample.owl#facultyLevel" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/Level_Assistant"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#personID" : [ {
+    "@value" : "555555555"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#personName" : [ {
+    "@value" : "Charlie"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#salary" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1033"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#teacherName" : [ {
+    "@value" : "Charlie"
+  } ],
+  "http://lumii.lv/ontologies/UnivExample.owl#teaches" : [ {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse1"
+  }, {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse2"
+  }, {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse3"
+  }, {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse4"
+  }, {
+    "@id" : "http://data.lumii.lv/miniUniv/XCourse5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Assistant"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Person"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Teacher"
+  }, {
+    "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing"
+  } ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#AcademicProgram",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Assistant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#CompletedRegistration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Course",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#FacultyLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#MandatoryCourse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Nationality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#OptionalCourse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Professor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Registration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Student",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Teacher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#Thing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#acadTitle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#course",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#courseCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#courseCredits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#courseExtInfo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#courseName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#dateCompleted",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#datePaid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#enrolled",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#facultyLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#hasMark",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#includes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#mark",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#nCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#nValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#nationality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#personID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#personName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#programName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#r",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#salary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#student",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#studentName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#studentNumber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#takes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#teacherName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://lumii.lv/ontologies/UnivExample.owl#teaches",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
